@@ -1,3 +1,5 @@
-def(String url , String branch){
+def cloneCode(String GitUrl, String GitBranch) {
   echo "Cloning the Code!!"
-  git url: "${url}, branch: ${branch}"
+  git url: "${GitUrl}", branch: "${GitBranch}"
+    
+}
